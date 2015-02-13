@@ -1,4 +1,4 @@
-/*Jaime Delgado Linares DNI:50242452X*/
+/*Jaime Delgado Linares*/
 #include <iostream>
 #include <string>
 #include "listadepeliculas.h"
