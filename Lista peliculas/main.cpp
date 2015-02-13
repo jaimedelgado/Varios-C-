@@ -1,4 +1,4 @@
-/*Jaime Delgado Linares DNI:50242452X*/
+/*Jaime Delgado Linares*/
 
 #include <iostream>
 #include <fstream>
@@ -149,7 +149,7 @@ tListaPelis leeArBinPelis(){
 		int tam=numReg/10; 
 		tam++;
 		tam=tam*10;
-		// Creo array dinamico de ese tamaño
+		// Creo array dinamico de ese tamaÃ±o
 		crearPelisPtr(lista, tam);
 		
 		//Llevo el puntero del archivo al principio
@@ -190,7 +190,7 @@ tListaClientes leeArBinClientes(){
 		int tam=numReg/10; 
 		tam++;
 		tam=tam*10;
-		// Creo array dinamico de ese tamaño
+		// Creo array dinamico de ese tamaÃ±o
 		crearClientesPtr(lista, tam);
 
 		//Llevo el punteor del archivo al principio
