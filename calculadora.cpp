@@ -1,4 +1,4 @@
-//Jaime Delgado Linares DNI: 50242452X
+//Jaime Delgado Linares 
 
 #include <iostream>
 #include <cmath>
@@ -130,7 +130,7 @@ void operacionesCalculadora(){
 				cout << "ERROR (Vuelva a introducir)" << endl;
 				cin.sync();
 				cout << operando1; // si el operando esta mal vuelve a poner 
-				//el numero que había antes y te deja volver a operar
+				//el numero que habÃ­a antes y te deja volver a operar
 			}
 			cin.get(operador);
 						
