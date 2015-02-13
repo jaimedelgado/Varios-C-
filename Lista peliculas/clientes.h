@@ -1,4 +1,4 @@
-/*Jaime Delgado Linares DNI:50242452X*/
+/*Jaime Delgado Linares */
 
 /*En este archivo se encuentran las funciones encargadas de modificar y crear clientes*/
 
@@ -31,7 +31,7 @@ typedef tCliente *clientePtr; //Puntero a un tCliente
 const int SIZECLIENTE=sizeof(tCliente);
 
 //Prototipos
-//Lee los datos de un cliente, inicializa su lista de visionados como una lista vacía y devuelve
+//Lee los datos de un cliente, inicializa su lista de visionados como una lista vacÃ­a y devuelve
 //como salida una estructura tCliente debidamente creada. Comprueba que su nif este correcto
 tCliente leerCliente();
 //Recibe un cliente, un booleano y una lista de pelis. Si el booleano es false muestra los datos
@@ -41,7 +41,7 @@ void mostrarCliente(tCliente cliente, bool mostrarDetalles, tListaPelis listacom
 void editarCliente(tCliente &cliente);
 //Recibe un cliente y los datos de un visionado, y devuelve el cliente actualizado
 void altaVisionado(tCliente &cliente, tPeliculasVisionadas peliculasvisionadas);
-//Recibe un cliente y un codigo y devuelve el numero de veces que el cliente ha visto una pelicula y cuantas veces le gstó
+//Recibe un cliente y un codigo y devuelve el numero de veces que el cliente ha visto una pelicula y cuantas veces le gstÃ³
 void datosVisionado(tCliente cliente, int codigo, int &visiones, int &gusta);
 //Recibe un nif y devuelve si el nif esta correcto (8digitos y una letra alfinal)
 bool nifCorrecto(string nif);
