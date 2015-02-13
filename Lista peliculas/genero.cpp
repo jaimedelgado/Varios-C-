@@ -1,11 +1,11 @@
-/*Jaime Delgado Linares DNI:50242452X*/
+/*Jaime Delgado Linares */
 #include <iostream>
 #include "genero.h"
 using namespace std;
 
 //Implementacion funciones genero
 
-//Pide un género al usuario y devuelve una variable de tipo tGenero con el género leído
+//Pide un gÃ©nero al usuario y devuelve una variable de tipo tGenero con el gÃ©nero leÃ­do
 tGenero leerGenero(){
 	tGenero genero;
 	int num;
@@ -27,7 +27,7 @@ tGenero leerGenero(){
 	}while(num<1 || num>6);
 	return genero;
 }
-//Dada una variable de tipo tGenero, escribe el nombre del género en la consola
+//Dada una variable de tipo tGenero, escribe el nombre del gÃ©nero en la consola
 void escribirGenero(tGenero &genero){
 	switch(genero){
 	case 0:
