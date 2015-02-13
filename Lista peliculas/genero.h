@@ -1,4 +1,4 @@
-/*Jaime Delgado Linares DNI:50242452X*/
+/*Jaime Delgado Linares */
 
 /*En este archivo se encuentran las funciones encargadas de modificar los generos*/
 
